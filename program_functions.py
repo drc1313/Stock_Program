@@ -25,7 +25,7 @@ def webRead(URL,attempts):
         print("Trying Again")
 
         if(attempts==0):
-            print("Cannot Load Web Page")
+            print("Cannot Load")
             quit()
         webRead(URL,attempts)
     return response
